@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->`
+        <!-- Set AppCompat’s actionBarStyle -->
+        <!--
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        -->
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@color/gnews_navbar</item>
+        <item name="colorPrimaryDark">@color/gnews_navbar</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="android:spinnerItemStyle">@style/MooSpinnerItem</item>
+        <!-- The rest of your attributes -->
+
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->`
+        <!-- Set AppCompat’s actionBarStyle -->
+        <!--
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        -->
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@color/gnews_navbar</item>
+        <item name="colorPrimaryDark">@color/gnews_navbar</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- The rest of your attributes -->
+
+    </style>
+
+    <style name="MooTheme" parent="android:Theme">
+        <item name="android:spinnerItemStyle">@style/MooSpinnerItem</item>
+    </style>
+
+    <style name="MooSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/MooTextAppearanceSpinnerItem</item>
+    </style>
+
+    <style name="MooTextAppearanceSpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+</resources>

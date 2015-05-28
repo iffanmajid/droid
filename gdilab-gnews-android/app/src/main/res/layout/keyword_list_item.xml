@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="4dp"
+    >
+
+    <include layout="@layout/swipe_menu_keyword"/>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/front"
+        android:tag="front"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyword_list_height"
+        android:background="@color/transparent_black"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/transparent_black"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/channel_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/gnews_blue"
+            android:padding="12dp"
+            android:gravity="left"
+            android:textAlignment="gravity"
+            android:background="@color/transparent_black_dark"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

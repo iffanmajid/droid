@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">gnews</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="getting_ready">Welcome</string>
+    <string name="sign_up">Signin up and connect with your twitter account</string>
+    <string name="gnews">gnews</string>
+    <string name="twitter">twitter</string>
+    <string name="work_better">work better with</string>
+    <string name="dont_worry">We will not post anything automatically without permission</string>
+    <string name="by_using">By using gnews, you agree to </string>
+    <string name="terms">Terms of Service</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="cookie_policy">Cookie Policy</string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="basic_info">Basic Information</string>
+    <string name="basic_info_desc">Please fill your basic information below</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="country">Country</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="keyword_text_top">The news based on a keyword</string>
+    <string name="keyword_question">what would you like to know about ?</string>
+    <string name="keyword_hint">Type only one keyword or phrase</string>
+    <string name="keyword_sample">e.g: interior design</string>
+    <string name="keyword_desc">you may use up to three keyword to make one channel</string>
+    <string name="suggestion_desc">Here\'s our suggestion</string>
+    <string name="channel_text_top">keep your channel organized by naming it based on your choosen topic of interest.</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_name_hint">e.g. Analytics</string>
+    <string name="channel_description">Channel Description</string>
+    <string name="home">Home</string>
+    <string name="help">HELP</string>
+    <string name="logout">LOGOUT</string>
+    <string name="login">LOGIN</string>
+    <string name="channels">Channels</string>
+    <string name="keywords">Keywords</string>
+    <string name="keywords_desc">Your interested keyword gouped by theme or topic</string>
+    <string name="reading_list">Reading List</string>
+    <string name="clippings">Clipping</string>
+    <string name="favorites">Favorite</string>
+    <string name="popular">Popular</string>
+    <string name="share">Share</string>
+    <string name="setting">SETTING</string>
+    <string name="account">Account</string>
+    <string name="account_info">Account Info</string>
+    <string name="save">SAVE</string>
+    <string name="about">ABOUT</string>
+    <string name="gnews_twitter_info">Follow \@gnewsapp on twitter</string>
+    <string name="gdilab_twitter_info">Follow \@gdilab on twitter</string>
+    <string name="version">Version</string>
+    <string name="version_info">gnews 2.0.5</string>
+    <string name="thanks">Thank you for downloading. Enjoy!</string>
+    <string name="fullname">Full Name</string>
+    <string name="username">\@username</string>
+    <string name="about_content">
+        gnews is an app which will give you the most updated news based on your interests.
+        \n\n
+        Available on Android, iOS, and Accessible at www.gdilab.com
+    </string>
+    <string name="gnews_tagline">Create your genius newspaper!</string>
+    <string name="info">Please contact us at</string>
+    <string name="info_email">info@gdilab.com</string>
+    <string name="thank_you">Thank You</string>
+    <string name="confirm_delete">Are you sure want to delete?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="follow_gnews">Follow @gnewsapp on twitter</string>
+    <string name="follow_gdilab">Follow @gdilab on twitter</string>
+    <string name="a_product_of">a product of</string>
+    <string name="company_info">an analytic company</string>
+    <string name="popular_success">Added to Popular</string>
+    <string name="readinglist_success">Added to Reading List</string>
+    <string name="set_prefered_language">Set your prefered \nnews result language</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesian, English</string>
+    <string name="set_prefered_language_desc">You can change this language preference \nin setting menu</string>
+    <string name="popular_news">Popular News</string>
+    <string name="popular_news_desc">Read news based on gnews \nfavorite keywords</string>
+    <string name="your_own_news">Your Own News</string>
+    <string name="your_own_news_desc">Get most updated news \nbased on your interest</string>
+    <string name="your_own_news_desc2">Get most updated news based on your interest</string>
+    <string name="add_new_keyword">Add new keyword</string>
+    <string name="error_create_news_limit">You have reach maximum 5 keywords, delete one or more to add another, it\'s unlimited.</string>
+    <string name="search">Search</string>
+    <string name="shared">shared :</string>
+    <string name="x">x</string>
+    <string name="remove_filter">remove filter</string>
+
+</resources>

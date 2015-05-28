@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="dark_red">#ff860000</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="actionbar_bg">#FF0099CC</color>
+    <color name="statusbar_bg">#FF006080</color>
+
+    <color name="gnews_blue">#00BDD6</color>
+    <color name="gnews_blue_transparent">#3300BDD6</color>
+    <color name="gnews_blue_dark">#193346</color>
+    <color name="gnews_blue_hover">#1472d4</color>
+    <color name="gnews_article_bg">#1B364E</color>
+    <color name="gnews_swipe_border">#D1D1D1</color>
+    <color name="gnews_navbar">#34495e</color>
+    <color name="gnews_yellow">#ffcc00</color>
+    <color name="grey_light">#f9f9f9</color>
+    <color name="grey_soft">#f2f2f2</color>
+    <color name="grey">#e2e2e2</color>
+    <color name="grey_dark">#767676</color>
+    <color name="transparent_black">#33000000</color>
+    <color name="transparent_black_dark">#aa000000</color>
+    <color name="transparent_white">#33ffffff</color>
+    <color name="transparent_grey">#33e2e2e2</color>
+    <color name="transparent_dark_red">#cc860000</color>
+
+    <array name="rainbow">
+        <item>@color/bright_pink</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/chartreuse</item>
+        <item>@color/green</item>
+        <item>@color/spring_green</item>
+        <item>@color/cyan</item>
+        <item>@color/azure</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+    </array>
+
+    <array name="gnews_random_background">
+        <item>#2175BF</item>
+        <item>#2097DB</item>
+        <item>#30CFF2</item>
+        <item>#18608C</item>
+    </array>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back"
+    android:tag="back"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/keyword_list_height"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp"
+    android:background="@color/transparent_black_dark"
+    android:layout_marginBottom="4dp" >
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/confirm_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm_delete"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/confirm_delete"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/button_yes"
+            android:layout_width="32dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/transparent_light_button_selector"
+            android:layout_weight="0.5"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:text="@string/yes"
+            />
+
+        <Button
+            android:id="@+id/button_no"
+            android:layout_width="32dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/transparent_light_button_selector"
+            android:layout_weight="0.5"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:text="@string/no"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gnews_background" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/gnews_logo_home"/>
+
+    <Button
+        android:id="@+id/twitter_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/twitter_button_selector"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/getting_ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/getting_ready"
+        android:layout_below="@+id/logo"
+        android:textSize="32sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_below="@+id/getting_ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="gravity"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_up"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/dont_worry"
+        android:layout_below="@+id/twitter_button"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="gravity"
+        />
+
+    <LinearLayout
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/and"
+            android:paddingRight="4sp"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/privacy_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gnews_blue"
+            android:text="@string/privacy_policy"
+            android:paddingRight="4sp"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_bottom_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/text_bottom"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/by_using"
+            android:paddingRight="4sp"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/terms_of_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gnews_blue"
+            android:text="@string/terms"
+            android:paddingRight="4sp"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

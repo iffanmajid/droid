@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        applicationId "com.gdilab.gnews"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 14
+        versionName "2.0.5"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("/Users/masasdani/gdilab.keystore")
+            storePassword "pass-G3n3si5"
+            keyAlias "gdilab"
+            keyPassword "pass-G3n3si5"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/notice.txt'
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':AndroidBootstrap')
+    compile project(':gnewsrecycleview')
+    compile project(':quickreturn')
+    compile project(':viewpagerindicator')
+    apt 'de.devland.esperandro:esperandro:2.1.0'
+    compile 'com.google.android.gms:play-services:7.0.0'
+    compile 'com.android.support:support-v4:21.0.2'
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.2'
+    compile 'com.android.support:cardview-v7:21.0.2'
+    compile 'com.android.support:recyclerview-v7:21.0.2'
+    compile 'org.springframework.android:spring-android-rest-template:2.0.0.M1'
+    compile 'com.facebook.rebound:rebound:0.3.6'
+    compile 'com.jakewharton:butterknife:5.1.2'
+    compile 'com.squareup.picasso:picasso:2.3.4'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.0@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.2@aar'
+    compile 'com.github.johnkil.android-appmsg:appmsg:1.2.0'
+    compile 'com.github.castorflex.smoothprogressbar:library:1.0.0'
+    compile 'com.github.castorflex.smoothprogressbar:library-circular:1.0.0'
+    compile 'com.melnykov:floatingactionbutton:1.0.4'
+    compile 'com.mobsandgeeks:android-saripaar:1.0.2'
+    compile 'de.devland.esperandro:esperandro-api:2.1.0'
+    compile 'de.devland.esperandro:esperandro-gson-addon:2.1.0'
+    compile 'joda-time:joda-time:2.2'
+    compile (group: 'org.twitter4j', name: 'twitter4j-core', version: '4.0.1') {
+        exclude group: 'com.google.android', module: 'support-v7'
+    }
+    compile ('de.psdev.licensesdialog:licensesdialog:1.6.0') {
+        exclude group: 'com.google.android', module: 'support-v4'
+    }
+    compile 'com.quentindommerc.superlistview:library:1.5.2'
+    compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-manipulation:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-core-slh:3.1.0@aar'
+    compile 'com.github.androidprogresslayout:library:2.0.2@aar'
+    compile 'com.pnikosis:materialish-progress:1.2'
+}
+
+repositories {
+    maven { url 'http://repo.spring.io/milestone' }
+}

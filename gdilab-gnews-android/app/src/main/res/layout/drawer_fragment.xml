@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <RelativeLayout
+                android:id="@+id/top_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@color/gnews_blue_dark" >
+
+                <com.gdilab.gnews.view.RoundedImageView
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/thumbnail"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    bootstrap:bct_minimal="true"
+                    android:layout_marginLeft="8dp"
+                    bootstrap:bct_image="@drawable/ic_def_profile" />
+
+                <TextView
+                    android:id="@+id/fullname"
+                    android:layout_toRightOf="@+id/thumbnail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/fullname"/>
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_toRightOf="@+id/thumbnail"
+                    android:layout_below="@+id/fullname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/username"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/keywords"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keywords"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                android:textColor="@color/primary_material_dark"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:background="@drawable/slider_button_selector"/>
+
+            <Button
+                android:id="@+id/channels"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/channels"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                android:textColor="@color/primary_material_dark"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:background="@drawable/slider_button_selector"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/favorite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/popular"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                android:textColor="@color/primary_material_dark"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:background="@drawable/slider_button_selector"/>
+
+            <Button
+                android:id="@+id/clipping"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reading_list"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                android:textColor="@color/primary_material_dark"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:background="@drawable/slider_button_selector"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/grey_soft">
+
+                <Button
+                    android:id="@+id/setting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting"
+                    android:gravity="left|center_vertical"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/tertiary_text_light"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="14sp"
+                    android:drawableLeft="@drawable/ic_setting"
+                    android:background="@drawable/slider_button_selector"/>
+
+                <Button
+                    android:id="@+id/about"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about"
+                    android:gravity="left|center_vertical"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/tertiary_text_light"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="14sp"
+                    android:drawableLeft="@drawable/ic_about"
+                    android:background="@drawable/slider_button_selector"/>
+
+                <Button
+                    android:id="@+id/help"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help"
+                    android:gravity="left|center_vertical"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/tertiary_text_light"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:drawableLeft="@drawable/ic_help"
+                    android:textSize="14sp"
+                    android:background="@drawable/slider_button_selector"/>
+
+                <Button
+                    android:id="@+id/logout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/logout"
+                    android:gravity="left|center_vertical"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/tertiary_text_light"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:drawableLeft="@drawable/ic_logout"
+                    android:textSize="14sp"
+                    android:background="@drawable/slider_button_selector"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/privacy_policy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                android:textColor="@color/primary_material_dark"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:background="@drawable/slider_button_selector"/>
+
+            <Button
+                android:id="@+id/terms_of_service"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_of_service"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                android:textColor="@color/primary_material_dark"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:background="@drawable/slider_button_selector"/>
+
+        </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Fun App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="a_product_of">a product of</string>
+    <string name="company_info">an analytic company</string>
+    <string name="set_prefered_language">Set your prefered \nnews result language</string>
+    <string name="indonesia">Indonesian, English</string>
+    <string name="english">English</string>
+    <string name="set_prefered_language_desc">You can change this language preference \nin setting menu</string>
+    <string name="save">SAVE</string>
+    <string name="popular_news">Popular News</string>
+    <string name="popular_news_desc">Read news based on gnews \nfavorite keywords</string>
+    <string name="your_own_news">Your Own News</string>
+    <string name="your_own_news_desc">Get most updated news \nbased on your interest</string>
+    <string name="getting_ready">Welcome</string>
+    <string name="sign_up">Signin up and connect with your twitter account</string>
+    <string name="dont_worry">We will not post anything automatically without permission</string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="by_using">By using gnews, you agree to </string>
+    <string name="terms">Terms of Service</string>
+    <string name="title_section1">Name</string>
+    <string name="title_section2">Pull</string>
+    <string name="title_section3">Push</string>
+    <string name="title_section4">Messages</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/a_product_of"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:textColor="@color/white"
+            android:text="@string/a_product_of"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_alignParentTop="true" />
+
+        <ImageView
+            android:layout_toRightOf="@+id/a_product_of"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gdilab_logo_small_footer_home" />
+
+        <TextView
+            android:id="@+id/company_info"
+            android:layout_below="@+id/a_product_of"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/company_info"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

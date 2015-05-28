@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:propertyName="x"
+        android:duration="@integer/half_slide_up_down_duration"
+        android:valueFrom="500"
+        android:valueTo="0" />
+
+</set>
